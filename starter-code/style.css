@@ -11,6 +11,7 @@
   --fw-bold: 900;
 
   --clr-base-100: hsl(0, 0%, 98%);
+  --clr-base-200: hsl(240, 10%, 57%, 0.25);
   --clr-base-400: hsl(240, 10%, 57%);
   --clr-base-900: hsl(240, 21%, 20%);
 
@@ -219,7 +220,7 @@ h2 {
 .deco-number .line {
   width: 1px;
   height: 84px;
-  background-color: var(--clr-base-400);
+  background-color: var(--clr-base-200);
 }
 
 .deco-number .number {
@@ -229,9 +230,9 @@ h2 {
   height: 3.5rem;
   font-size: var(--fs-300);
   font-weight: var(--fw-bold);
-  background-color: var(--clr-base-100);
+  background-color: #fff;
   border-radius: 50%;
-  border: 1px solid var(--clr-base-400);
+  border: 1px solid var(--clr-base-200);
 }
 
 /* Layout */
